@@ -2,6 +2,8 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: nginx
+  annotations:
+    vk/PodIP: 10.11.57.3
 spec:
   containers:
   - image: nginx
